@@ -1,0 +1,95 @@
+All measurements are in meters.
+
+Calit2 1606 (Performative Computing)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+          A
+     +--------,,__        B
+     |            ^^--,,__
+     |                    ^^--,,__
+     |                            ^^ <-- Right angle
+     |                             /
+     |                            /
+  E  |                           /
+     |                          /
+     |                         /  C
+     |                        /
+     |                       /
+     +----------------------+
+                D
+                
+A = 3.7
+B = 8.0
+C = 6.7
+D = 9.25
+E = 8.75
+
+Doors width = 2.54
+Doors height = 3
+
+Drop ceiling height = 4.18
+Top ceiling height = 5
+
+Booth window inset = 0.15
+Booth window vert offset = 0.92
+Booth window height = 1.22
+Booth window width = 1.86
+Border width b/w booth window and door = 0.15
+Booth door inset = 0.36
+Booth door width = 0.92
+Booth door height = 2.13
+
+Piano max width = 1.47
+Piano min width = 0.87
+Piano max depth = 1.91
+Piano min depth = 0.79
+Piano underside height = 0.68
+Piano height = 0.99
+Piano key width of white key = 0.021
+Piano key width of black key or top of white key = 0.012
+Piano key spacing of white keys = 0.023
+Piano key depth = 0.143
+Piano key depth of front part of white key = 0.048
+Piano key height of black key = 0.01
+
+Theater cube side = 0.42
+
+Standard table height = 0.72
+Standard table depth = 0.80
+Standard table width = 1.60
+Round table radius = 0.92
+
+Chair base height = 0.46
+Chair max height = 0.77
+Chair width = 0.47
+Chair depth = 0.50
+
+Cabinet width = 0.90
+Cabinet depth = 0.61
+Cabinet height = 2.13
+
+Couch seat height = 0.42
+Couch back height = 0.86
+Couch arm height = 0.64
+Couch back depth min = 0.23
+Couch back depth max = 0.43
+Couch depth max = 0.97
+Couch max width = 2.06
+Couch arm width = 0.33
+
+PC depth = 0.57
+PC height = 0.60
+PC width = 0.23
+
+Black screen total height = 2.06
+Black screen vert offset = 0.44
+Black screen width = 2.90
+
+
+
+
+
+
+
+
+

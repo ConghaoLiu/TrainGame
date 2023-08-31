@@ -1,0 +1,29 @@
+Space3D_GPU Materials File
+(Lines not following the below format are ignored)
+matl_number red green blue xfreq:xfact xfreq2:xfact2 ... path/to/impulse/response/file.wav_or_raw
+
+0 255 255 255  1000:-100                 impulse/kronecker.wav
+1   0   0   0  1000:-100                 impulse/zero.wav
+2 255 128   0  50:-1 1000:-1 10000:-1    impulse/Ref_1K_LP.wav
+3   0 255 128  50:-50 1000:-20 10000:-1  impulse/Ref_1K_LP.wav
+4 128   0 255  50:-1 1000:-20 10000:-50  impulse/Ref_4K_LP.wav
+#5 128   0 255  50:-10 200:-30 1000:-40   impulse/Ref_1K_LP.wav
+#This is the transmission of the small acoustic panel (the reflection is arbitrary):
+5   0   0 255  60:-2 1500:-7 10000:-14 16000:-20  impulse/Ref_4K_LP.wav
+#6   0 255   0  60:-6 1000:-6 16000:-6   impulse/Ref_4K_LP.wav
+6   0 255   0  60:-6 1000:-10 16000:-20  impulse/slow_lp.wav
+7  50   0 100  1000:-20                  impulse/Ref_500_LP.wav
+8   0   0 100 7000:-1 12000:-5 14000:-10         impulse/Ref_4k_LP.wav
+
+
+#7   0   0 128  1000:-14                  impulse/Ref_1K_LP.wav
+#8 255 128 128  1000:-1                   impulse/Ref_1K_LP.wav
+
+floor
+15 255 255   0  1000:-20                  impulse/Ref_250_LP_-3dB.wav
+walls, etc.
+16   0 200 255  1000:-20                  impulse/Ref_1K_LP_-1dB.wav
+
+19 255 128   0  50:-1 1000:-1 10000:-1    impulse/Ref_1K_LP.wav
+20   0   0 255  50:-100 10000:-100        impulse/Ref_1K_LP.wav
+

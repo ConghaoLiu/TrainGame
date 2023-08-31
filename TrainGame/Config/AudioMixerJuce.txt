@@ -1,0 +1,3 @@
+DeviceName=ASIO: Dante Virtual Soundcard (x64)
+SampleRate=44100
+BufferSize=512

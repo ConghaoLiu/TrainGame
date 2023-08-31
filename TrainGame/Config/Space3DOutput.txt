@@ -1,0 +1,31 @@
+/* 
+Space3DSourceSettings(volume, threshold_full, threshold_zero);
+Space3DHead(hrtf_index, left_channel);
+Space3DSpeaker(channel, location_x, location_y, location_z);
+HRTF and channel arguments are zero-indexed (e.g. Space3DHead(0, 2) would output binaural audio from channels 3 and 4).
+*/
+
+
+Space3DSourceSettings(0.6 0.9, 0.7);
+
+
+Space3DHead(0, 22);
+Space3DSpeaker(0,  303,  -382, 153);
+Space3DSpeaker(1,  462,  -109,  153);
+Space3DSpeaker(2,  445,  278,  153);
+Space3DSpeaker(3,  86,   421,  153);
+Space3DSpeaker(4,  -397, 342,  153);
+Space3DSpeaker(5,  -395, -17,  153);
+Space3DSpeaker(6,  -388, -338, 153);
+Space3DSpeaker(7,  -42,  -438, 153);
+Space3DSpeaker(8,  214,  -415, 345);
+Space3DSpeaker(9,  462,  -109,  345);
+Space3DSpeaker(10, 393,  367,  345);
+Space3DSpeaker(11, -172, 398,  345);
+Space3DSpeaker(12, -375, -15,  345);
+Space3DSpeaker(13, -254, -375, 345);
+Space3DSpeaker(15, 47,   -2,  399);
+Space3DSpeaker(16, 180,  -219, 364);
+Space3DSpeaker(17, 194,  75,  364);
+Space3DSpeaker(18, -170, 130,  364);
+Space3DSpeaker(19, -154, -167, 364);
